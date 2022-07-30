@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,23 @@
     <title>Rock-Paper-Scissors</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <img id="scissors" class="image" src="scissors.png" alt="가위">
-    <img id="rock" class="image hidden" src="rock.png" alt="바위">
-    <img id="paper" class="image hidden" src="paper.png" alt="보">
-    <br>
-    <button class="button" type="button">✌️</button>
-    <button class="button" type="button">✊</button>
-    <button class="button" type="button">🖐</button>
-    <form class="form">
-        <input class="input" type="submit" value="다시하기">
-    </form>
-    <h3></h3>
+    <div id="mainContainer">
+        <img id="scissors" class="image" src="scissors.png" alt="가위">
+        <img id="rock" class="image hidden" src="rock.png" alt="바위">
+        <img id="paper" class="image hidden" src="paper.png" alt="보">
+        <div id="optionsContainer">
+            <button class="button" type="button">✌️</button>
+            <button class="button" type="button">✊</button>
+            <button class="button" type="button">🖐</button>
+        </div>
+        <form class="form">
+            <input id="retryButton" class="input" type="submit" value="다시하기">
+        </form>
+        <h3></h3>
+    </div>
     <script src="main.js"></script>
 </body>
+
 </html>
