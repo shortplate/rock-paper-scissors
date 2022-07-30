@@ -1,7 +1,19 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
 .button {
     padding: 1px 1px;
     width: 36px;
     height: 36px;
+}
+
+img {
+    width: 120px;
 }
 
 .hidden {
@@ -14,4 +26,24 @@
 
 .input {
     height: 36px;
+}
+
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 10px;
+    width: 200px;
+    height: 100%;
+}
+
+#optionsContainer {
+    display: flex;
+    gap: 10px;
+}
+
+#retryButton {
+    width: 130px;
 }
