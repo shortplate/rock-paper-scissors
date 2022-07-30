@@ -1,0 +1,17 @@
+.button {
+    padding: 1px 1px;
+    width: 36px;
+    height: 36px;
+}
+
+.hidden {
+    display: none;
+}
+
+.form {
+    display: inline;
+}
+
+.input {
+    height: 36px;
+}
